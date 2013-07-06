@@ -67,7 +67,7 @@ class PayNameGateway
 
   def load_pay_names
     lib_dir = File.dirname(__FILE__)
-    full_pattern = File.join(lib_dir, 'pay_tag_names', '*.rb')
+    full_pattern = File.join(lib_dir, '../pay_tag_names', '*.rb')
     Dir.glob(full_pattern).each {|file| require file}
   end
 

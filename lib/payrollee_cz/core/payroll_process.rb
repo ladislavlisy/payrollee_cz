@@ -1,5 +1,5 @@
-#require "payroll_period.rb"
-#require "pay_tag_gateway.rb"
+require 'active_support/core_ext/object/deep_dup'
+require 'active_support/core_ext/time/calculations.rb'
 
 class PayrollProcess
   attr_reader :period

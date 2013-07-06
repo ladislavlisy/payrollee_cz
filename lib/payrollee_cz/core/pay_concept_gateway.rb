@@ -99,7 +99,7 @@ class PayConceptGateway
 
   def load_concepts
     lib_dir = File.dirname(__FILE__)
-    full_pattern = File.join(lib_dir, 'concepts', '*.rb')
+    full_pattern = File.join(lib_dir, '../concepts', '*.rb')
     Dir.glob(full_pattern).each {|file| require file}
   end
 

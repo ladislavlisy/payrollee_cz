@@ -1,3 +1,5 @@
+require 'active_support/core_ext/string/inflections'
+
 class PayTagGateway
   attr_reader :models
 
@@ -106,7 +108,7 @@ class PayTagGateway
 
   def load_pay_tags
     lib_dir = File.dirname(__FILE__)
-    full_pattern = File.join(lib_dir, 'pay_tags', '*.rb')
+    full_pattern = File.join(lib_dir, '../pay_tags', '*.rb')
     Dir.glob(full_pattern).each {|file| require file}
   end
 
