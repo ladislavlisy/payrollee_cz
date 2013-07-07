@@ -30,7 +30,7 @@ Gem::Specification.new do |gem|
      gross income
      net income
   }
-  gem.homepage      = "http://www.hravemzdy.cz"
+  gem.homepage      = "https://github.com/ladislavlisy/payrollee_cz"
   gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split($/)
