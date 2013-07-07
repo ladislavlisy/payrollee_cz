@@ -1,9 +1,5 @@
 require "payrollee_cz/version"
 
-module PayrolleeCz
-  # Your code goes here...
-end
-
 require 'bigdecimal'
 require "payrollee_cz/core/payroll_period"
 require "payrollee_cz/core_items/tag_refer"

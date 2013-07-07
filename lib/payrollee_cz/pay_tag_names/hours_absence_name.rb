@@ -1,7 +1,12 @@
-class HoursAbsenceName < PayrollName
-  def initialize
-    super(PayTagGateway::REF_HOURS_ABSENCE,
-          'Absence hours', 'Absence hours',
-          PayNameGateway::VPAYGRP_SCHEDULE, PayNameGateway::HPAYGRP_UNKNOWN)
+# encoding: utf-8
+
+module PayrolleeCz
+  class HoursAbsenceName < PayrollName
+    def initialize
+      super(PayTagGateway::REF_HOURS_ABSENCE,
+            'Absence hours', 'Absence hours',
+            PayNameGateway::VPAYGRP_SCHEDULE, PayNameGateway::HPAYGRP_UNKNOWN)
+    end
   end
 end
+

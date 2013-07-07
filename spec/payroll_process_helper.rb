@@ -1,3 +1,4 @@
+
 def get_result_income_base(results, result_ref)
   result_select = results.select do |key, _|
     key.code == result_ref.code

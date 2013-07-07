@@ -17,16 +17,18 @@
 # Working hours in holidays
 # Working days in holidays
 
-class ScheduleWorkTag < PayrollTag
-  def initialize
-    super(PayTagGateway::REF_SCHEDULE_WORK, PayConceptGateway::REFCON_SCHEDULE_WEEKLY)
-  end
+module PayrolleeCz
+  class ScheduleWorkTag < PayrollTag
+    def initialize
+      super(PayTagGateway::REF_SCHEDULE_WORK, PayConceptGateway::REFCON_SCHEDULE_WEEKLY)
+    end
 
-  def title
-    'Working schedule'
-  end
+    def title
+      'Working schedule'
+    end
 
-  def description
-    'Working schedule'
+    def description
+      'Working schedule'
+    end
   end
 end

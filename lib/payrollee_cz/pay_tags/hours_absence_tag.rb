@@ -1,5 +1,8 @@
-class HoursAbsenceTag < PayrollTag
-  def initialize
-    super(PayTagGateway::REF_HOURS_ABSENCE, PayConceptGateway::REFCON_HOURS_ABSENCE)
+module PayrolleeCz
+  class HoursAbsenceTag < PayrollTag
+    def initialize
+      super(PayTagGateway::REF_HOURS_ABSENCE, PayConceptGateway::REFCON_HOURS_ABSENCE)
+    end
   end
 end
+

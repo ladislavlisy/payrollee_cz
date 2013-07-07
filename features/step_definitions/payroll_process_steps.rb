@@ -1,6 +1,8 @@
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'payrollee_cz'
 
+include PayrolleeCz
+
 CAPTURE_MONEY = Transform /^(CZK) (\d+)$/ do |currency_symbol, money|
   money.to_i
 end
@@ -46,6 +48,7 @@ CAPTURE_3BOOL = Transform /^(YES|NO)\:(YES|NO)\:(YES|NO)$/ do |flag1, flag2, fla
 end
 
 module PayrollProcessTest
+
   def my_payroll_period
     @my_payroll_period  ||= PayrollPeriod.new(2013, 1, 'january 2013')
   end
