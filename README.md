@@ -6,41 +6,41 @@ Simple library for calculation basic Czech payroll
 
 ### Working hours
 
-working schedule by weekly hours
-absence hours
+1. working schedule by weekly hours
+2. absence hours
 
 ### Salary
-monthly salary
+3. monthly salary
 
 ### Tax
 
-tax interest
-tax declaration
-tax income base
-tax advance
-withholding tax
-tax reliefs for payer
-tax reliefs for disability
-tax reliefs for studying
-tax reliefs for child
-tax bonus for child
+4. tax interest
+5. tax declaration
+6. tax income base
+7. tax advance
+8. withholding tax
+9. tax reliefs for payer
+10. tax reliefs for disability
+11. tax reliefs for studying
+12. tax reliefs for child
+13. tax bonus for child
 
 ### Health insurance
 
-insurance interest
-assessment base
-maximum assessment base
-minimum assessment base
-employee contribution
-employer's part of tax partial base
+14. insurance interest
+15. assessment base
+16. maximum assessment base
+17. minimum assessment base
+18. employee contribution
+19. employer's part of tax partial base
 
 ### Social insurance
 
-insurance interest
-assessment base
-maximum assessment base
-employee contribution
-employer's part of tax partial base
+20. insurance interest
+21. assessment base
+22. maximum assessment base
+23. employee contribution
+24. employer's part of tax partial base
 
 ### Pension savings
 
