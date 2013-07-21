@@ -48,6 +48,11 @@ Simple library for calculation basic Czech payroll
 
 ### Net income
 
+## Versions
+
+* 0.0.1 initial version
+* 0.0.2 export added
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -64,7 +69,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    require 'payrollee_cz'
+    require 'payrollee_cz-export'
 
 ## Contributing
 
